@@ -1,0 +1,24 @@
+<div id="login-overlay">
+</div>
+<div id="login-prompt">
+	<div id="prompt-signup">
+		<form id="signup-form" action="signup.py" method="post">
+			Username <input name="username"/>
+			Password <input type="password" name="password"/>
+			Confirm Password <input type="password"/>
+			<div class="g-recaptcha" data-sitekey="6Lcuox0TAAAAABpLWxnj9N1Oc7_xjScOTeGNf27O"></div>
+			<button type="submit" value="Submit">Sign Up</button>
+		</form>
+		<div id="signup-error">
+		</div>
+	</div>
+	<div id="prompt-login">
+		<form id="login-form" action="login.py" method="post">
+			Username <input name="username"/>
+			Password <input type="password" name="password" />
+			<button type="submit" value="Submit">Login</button>
+		</form>
+		<div id="login-error">
+		</div>
+	</div>
+</div>

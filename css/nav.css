@@ -1,0 +1,66 @@
+@charset 'UTF-8';
+
+nav
+{
+	background: rgba(0,0,0,.2);
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+}
+
+nav > ul
+{
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+
+nav > ul > li
+{
+	display: inline-block;
+}
+
+nav > ul > li > a,
+nav > ul > li > a:hover
+{
+	display: inline-block;
+	padding: 0.2em 0.2em;
+	letter-spacing: 0.06em;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 1.1em;
+	outline: 0;
+	color: #FFF;
+}
+
+nav > ul > li#nav-title
+{
+	float: left;
+}
+
+nav > ul > li#nav-login
+{
+	float: right;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+nav > ul > li#nav-logout
+{
+	float: right;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+nav > ul > li#nav-account
+{
+	float: right;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+nav > ul > li#nav-account > a
+{
+	text-transform: none;
+}

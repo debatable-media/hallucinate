@@ -1,0 +1,82 @@
+@charset 'UTF-8';
+
+#login-overlay
+{
+	display: none;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.8);
+}
+
+#login-prompt
+{
+	display: none;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	margin-left: -400px;
+	margin-top: -300px;
+	width: 800px;
+	height: 600px;
+	background: #fff;
+	border-radius: 5px;
+}
+
+#prompt-signup
+{
+	position:relative;
+	display: inline-block;
+	float: left;
+	width: 50%;
+	height:100%;
+	padding: 2em;
+	box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+#prompt-login
+{
+	position:relative;
+	display: inline-block;
+	float: left;
+	width: 50%;
+	height:100%;
+	padding: 2em;
+	box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+#signup-error
+{
+	color: rgb(255,0,0);
+	height:1em;
+}
+
+#login-error
+{
+	color: rgb(255,0,0);
+	height: 1em;
+}
+
+#login-prompt input
+{
+	width: 100%;
+}
+
+.g-recaptcha
+{
+	margin-top: 2em;
+	width: 100%;
+}
+
+#login-prompt button
+{
+	margin-top: 2em;
+	width: 100%;
+}
+
